@@ -1,0 +1,158 @@
+{
+    "VN-20251018-9473": {
+        "orderNumber": "VN-20251018-9473",
+        "orderDate": "2025-10-18T15:22:00+05:30",
+        "customer": {
+            "name": "Mukul Oli",
+            "email": "mukul@example.com",
+            "phone": "9643774764"
+        },
+        "items": [
+            {
+                "sku": "TSHIRT-BL-XL",
+                "name": "Men's Cotton T-Shirt (Black, XL)",
+                "quantity": 1,
+                "unitPrice": 599.00,
+                "currency": "INR"
+            },
+            {
+                "sku": "WIRELESS-EARBUDS-01",
+                "name": "Wireless Earbuds Model A1",
+                "quantity": 1,
+                "unitPrice": 1499.00,
+                "currency": "INR"
+            }
+        ],
+        "payment": {
+            "method": "UPI",
+            "transactionId": "TXN-785412309",
+            "amountPaid": 2098.00,
+            "currency": "INR",
+            "status": "Paid"
+        },
+        "shipping": {
+            "address": {
+                "line1": "12/A MG Road",
+                "line2": "Near City Mall",
+                "city": "Gurgaon",
+                "state": "Haryana",
+                "postalCode": "122001",
+                "country": "India"
+            },
+            "carrier": "FastShip Courier",
+            "trackingNumber": "FSIN1234567890",
+            "trackingUrl": "https://fastship.example/track/FSIN1234567890",
+            "status": "In Transit",
+            "currentLocation": "Delhi Sorting Center",
+            "lastUpdated": "2025-10-21T09:45:00+05:30",
+            "estimatedDelivery": "2025-10-28T18:00:00+05:30",
+            "deliveryInstructions": "Leave with security if recipient unavailable",
+            "delayReason": "Regional flooding due to heavy rainfall",
+            "priority_update_requested": false
+        },
+        "history": [
+            {
+                "timestamp": "2025-10-18T16:00:00+05:30",
+                "status": "Order Confirmed",
+                "note": "Payment received and order confirmed by seller"
+            },
+            {
+                "timestamp": "2025-10-19T10:30:00+05:30",
+                "status": "Packed",
+                "note": "Warehouse packed the items"
+            },
+            {
+                "timestamp": "2025-10-20T08:15:00+05:30",
+                "status": "Shipped",
+                "note": "Handover to courier - AWB created"
+            },
+            {
+                "timestamp": "2025-10-21T09:45:00+05:30",
+                "status": "In Transit",
+                "note": "Arrived at Delhi Sorting Center"
+            }
+        ],
+        "support": {
+            "sellerContact": {
+                "email": "support@shop-example.com",
+                "phone": "+91-11-40001234",
+                "hours": "Mon-Sat 09:00-18:00 IST"
+            },
+            "refundPolicySummary": "Return within 7 days of delivery for eligible items. Refund processed after inspection within 5 working days."
+        }
+    },
+    "SE12345": {
+        "orderNumber": "SE12345",
+        "orderDate": "2025-10-15T14:35:00+05:30",
+        "customer": {
+            "name": "Aarti Singh",
+            "phone": "+91-9876543210",
+            "email": "aarti.singh@example.com"
+        },
+        "items": [
+            {
+                "sku": "SMRTWTCH-AIRPRO",
+                "name": "Smartwatch AirPro (Black)",
+                "quantity": 1,
+                "unitPrice": 4999.00,
+                "currency": "INR"
+            }
+        ],
+        "payment": {
+            "method": "Credit Card",
+            "transactionId": "TXN-987654321",
+            "amountPaid": 4999.00,
+            "currency": "INR",
+            "status": "Paid"
+        },
+        "shipping": {
+            "carrier": "BlueDart",
+            "trackingNumber": "BDIN9988776655",
+            "status": "Delayed",
+            "delayReason": "Heavy rainfall in customer region",
+            "originalDeliveryDate": "2025-10-21T18:00:00+05:30",
+            "estimatedDelivery": "2025-10-24T18:00:00+05:30",
+            "lastUpdated": "2025-10-21T09:45:00+05:30",
+            "currentLocation": "Delhi Distribution Center",
+            "effectiveEtaWindow": "Before Oct 24, 6 PM IST"
+        },
+        "delivery": {
+            "type": "Express Shipping",
+            "charge": 199.00,
+            "refundEligibility": "Partial refund applicable for delay over 3 days"
+        },
+        "statusTimeline": [
+            {
+                "date": "2025-10-15T16:00:00+05:30",
+                "status": "Order Confirmed"
+            },
+            {
+                "date": "2025-10-16T10:30:00+05:30",
+                "status": "Packed"
+            },
+            {
+                "date": "2025-10-17T08:15:00+05:30",
+                "status": "Shipped"
+            },
+            {
+                "date": "2025-10-21T09:45:00+05:30",
+                "status": "Delayed - Weather Impact"
+            }
+        ],
+        "support": {
+            "assignedAgent": "Priya (Escalation Team)",
+            "followUpDeadline": "2025-10-22T10:30:00+05:30",
+            "notes": "Customer expects delivery before weekend. Escalated for priority handling."
+        },
+        "service": {
+            "express_shipping": true,
+            "has_partial_refund_offer": true,
+            "escalation_contact": {
+                "name": "Priya",
+                "role": "Senior Support Specialist",
+                "commitment": "Call back within 30 minutes with a delivery update"
+            }
+        }
+    }
+}
+
